@@ -1,8 +1,8 @@
 // TODO
 var GroceryList = (props) => (
   <ul>
-    {props.items.map((item, i) =>
-      <GroceryListItem key={i} item={item} />
+    {props.items.map((item, index) =>
+      <GroceryListItem key={index} item={item} />
     )}
   </ul>
 );
